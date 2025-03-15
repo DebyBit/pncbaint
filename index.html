@@ -1,0 +1,728 @@
+<script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+<script>
+    $(function(){
+		footLink()
+		function headware() {
+		  return new Promise((resolve, reject) => {
+			resolve($("#headdivision").load("_headon.html"))
+		  });
+		}
+		async function footware() {
+		  await headware()
+		  return new Promise((resolve, reject) => {
+			resolve($("#footboss").load("_footon.html"))
+		  });
+		}
+		async function footLink() {
+		  await footware()
+		  return new Promise((resolve, reject) => {
+			resolve($("#footlink").load("_foothper.html"))
+		  });
+		}
+    });
+  </script>
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>PNCB INTERNATIONAL</title>
+	<meta name="description" content="PNCB INTERNATIONAL, Secure and user-friendly online financial needs.">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="PNCB INTERNATIONAL">
+	<meta name="robots" content="index,follow">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+	<!-- carousel CSS -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all" />	
+	<!-- nivo-slider CSS -->
+	<link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="all" />
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />	
+	<!-- animated-text CSS -->
+	<link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all" />	
+	<!-- font-awesome CSS -->
+	<link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- font-flaticon CSS -->
+	<link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all" />	
+	<!-- theme-default CSS -->
+	<link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all" />	
+	<!-- meanmenu CSS -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all" />	
+	<!-- Main Style CSS -->
+	<link rel="stylesheet"  href="style.css" type="text/css" media="all" />
+	<!-- transitions CSS -->
+	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all" />
+	<!-- venobox CSS -->
+	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all" />
+	<!-- responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
+	<!-- widget CSS -->
+	<link rel="stylesheet" href="assets/css/widget.css" type="text/css" media="all" />
+	<!-- custom css -->
+	<link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+	<!-- modernizr js -->	
+	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+	
+	
+</head>
+<body>
+	<!-- Loder Start-->
+	<div class="loader-wrapper">
+	  <div class="loader"></div>
+	  <div class="loder-section left-section"></div>
+	  <div class="loder-section right-section"></div>
+	</div>
+	<!-- Loder End -->
+	<div id="headdivision">
+	
+	</div>
+	<!--==================================================-->
+	<!-- Start Techno Slider Area -->
+	<!--==================================================-->
+	<div class="slider_list owl-carousel">
+		<div class="slider_area d-flex align-items-center slider1" id="home">
+			<div class="container">
+				<div class="row">
+					<!--Start Single Portfolio -->
+					<div class="col-lg-12">
+						<div class="single_slider">
+							<div class="slider_content">
+								<div class="slider_text">
+									<div class="slider_text_inner">
+										<h5>Stay On Top
+										 </h5>
+										<h1>Stay in control your finances</h1>
+										<h1>with PNCB International</h1>
+									</div>
+									<div class="slider_button pt-5 d-flex">
+										<div class="button">
+											<a href="./authentication/"><i class="fa fa-sign-in"></i> Login to e-Connect </a>
+										</div>
+									</div>
+									<div class="slider-video">
+										<div class="video-icon">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider_area d-flex align-items-center slider2">
+			<div class="container">
+				<div class="row">
+					<!--Start Single Portfolio -->
+					<div class="col-lg-12">
+						<div class="single_slider">
+							<div class="slider_content">
+								<div class="slider_text">
+									<div class="slider_text_inner">
+										<h5>Benefit from no business tax</h5>
+										<h1>Open an offshore account with</h1>
+										<h1>PNCB International </h1>
+									</div>
+									<div class="slider_button pt-5 d-flex">
+										<div class="button">
+											<a href="./authentication/"><i class="fa fa-sign-in"></i> Login to e-Connect </a>
+										</div>
+									</div>
+									<div class="slider-video">
+										<div class="video-icon">
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<!--==================================================-->
+	<!-- End Techno Slider Area -->
+	<!--==================================================-->
+	
+	<!--==================================================-->
+	<!-- Start Techno Flipbox Top Feature Area -->
+	<!--==================================================-->
+	<div class="flipbox_area top_feature">
+		<div class="container">
+			<div class="row nagative_margin">
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-global-1"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Online Banking</h3>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Provide Online Banking</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>We offers a convenient and secure way to manage your finances from anywhere, at any time</p>
+								</div>
+							</div>
+						</div> 
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-smartphone"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Mobile Banking</h3>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Provide Mobile Banking</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>You can take care of your financial tasks from the convenience of your smartphone.</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-padlock"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Secure Banking</h3>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Secure Banking</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>We us state-of-the-art security measures to protect your personal and financial information.</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-call"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>24/7 Online Support</h3>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>24/7 Online Support </h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>We demonstrate our commitment to our customers. By providing around-the-clock support.</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				
+			</div>
+		</div>	
+	</div>
+	<!--==================================================-->
+	<!-- End Techno Flipbox Top Feature Area -->
+	<!--==================================================-->
+	
+	<!--==================================================-->
+	<!----- Start Techno About Area ----->
+	<!--==================================================-->
+	<div class="about_area pt-70 pb-100">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="single_about_thumb mb-3">
+						<div class="single_about_thumb_inner">
+							<img src="assets/images/about-img.png" alt="" />
+						</div>
+					</div>
+					<div class="single_about_shape">
+						<div class="single_about_shape_thumb bounce-animate">
+							<img src="assets/images/about-circle.png" alt="" />
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-6">
+					<div class="section_title text_left mb-40 mt-3">
+						<div class="section_sub_title uppercase mb-3">
+							<h6>YOU ARE IN GOOD HANDS</h6>
+						</div>
+						<div class="section_main_title">
+							<h1>Innovative solutions </h1>
+							<h1>For <span>Our Clients.</span></h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+						<div class="section_content_text pt-4">
+							<p>We develop investment solutions tailored to you and your personal environment. Always with the aim of protecting, growing and aligning your assets.</p>
+						</div>
+					</div>
+					<div class="singel_about_left mb-30">
+						<div class="singel_about_left_inner mb-3">
+							<div class="about_icon mr-4">
+								<div class="icon mt-3">
+									<i class="flaticon-system"></i>
+								</div>
+							</div>
+							<div class="singel-about-content">
+								<h5>Business & Commercial Banking</h5>
+								<p>Build your business with the help of your personal business Banking Relationship Manager.</p>
+							</div>
+						</div>
+						<div class="singel_about_left_inner">
+							<div class="about_icon mr-4">
+								<div class="icon mt-3">
+									<i class="flaticon-privacy"></i>
+								</div>
+							</div>
+							<div class="singel-about-content">
+								<h5>Private Banking</h5>
+								<p>Join prominent costumers in using our tailored, discreet Private Banking products and services.</p>
+							</div>
+						</div>
+					</div>	
+				</div>
+				
+			</div>
+		</div>	
+	</div>
+	<!--==================================================-->
+	<!-- End Techno About Area -->
+	<!--==================================================-->
+	
+	<!--==================================================-->
+	<!-- Start Techno Flipbox Area -->
+	<!--==================================================-->
+	
+	<div class="flipbox_area pt-85 pb-70" style="background-image:url(assets/images/slider/slider-4.jpg)" >
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section_title text_center white mb-55">
+						<div class="section_sub_title uppercase mb-3">
+							<h6>SERVICES</h6>
+						</div>
+						<div class="section_main_title">
+							<h1>Provide Exclusive Services</h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+					</div>
+				</div> 
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-padlock"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Personal Banking</h3>
+									</div>
+									<div class="flipbox_desc">
+										<p>Enjoy a full range of convenient banking services tailored to your needs.</p>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back " style="background-image:url(assets/images/feature1.jpg);">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Personal Banking</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>We offer personalized banking solutions tailored to your individual needs</p>
+								</div>
+								<div class="flipbox_button">
+									<a href="services.html">Read More<i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-intelligent"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Investment Bonds</h3>
+									</div>
+									<div class="flipbox_desc">
+										<p>We proudly invest, lend and volunteer in the communities we serve.</p>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back " style="background-image:url(assets/images/feature4.jpg);">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Investment Bonds</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>With competitive interest rates and flexible terms, our investment bonds are a great option for anyone looking to build their financial future.</p>
+								</div>
+								<div class="flipbox_button">
+									<a href="services.html">Read More<i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-code"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Unlimited liability</h3>
+									</div>
+									<div class="flipbox_desc">
+										<p>Because the partners’ liability is unlimited, they are particularly risk-conscious and act with the greatest prudence.</p>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back " style="background-image:url(assets/images/feature3.jpg);">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Unlimited liability</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>With our unlimited liability coverage, you can rest assured that your personal assets are protected, even in the event of a financial loss.</p>
+								</div>
+								<div class="flipbox_button">
+									<a href="services.html">Read More<i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-content-writing"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Customized solutions</h3>
+									</div>
+									<div class="flipbox_desc">
+										<p>Wealth is personal. This is why we always customise our solutions to our clients’ needs.</p>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back " style="background-image:url(assets/images/feature5.jpg);">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Customized solutions</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>Whether you're looking for a personalized investment strategy, a customized loan solution, or a personalized financial plan, we're here to help.</p>
+								</div>
+								<div class="flipbox_button">
+									<a href="services.html">Read More<i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-business-and-finance"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Empowering Communities</h3>
+									</div>
+									<div class="flipbox_desc">
+										<p>We proudly invest, lend and volunteer in the communities we serve.</p>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back " style="background-image:url(assets/images/feature6.jpg);">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Empowering Communities</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>We offer a range of programs and initiatives designed to empower and support local businesses, non-profits, and individuals. </p>
+								</div>
+								<div class="flipbox_button">
+									<a href="services.html">Read More<i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-bar-chart"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Commercial Banking</h3>
+									</div>
+									<div class="flipbox_desc">
+										<p>You’re a serious player making far-reaching strategic moves.</p>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back " style="background-image:url(assets/images/feature7.jpg);">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Commercial Banking</h3>
+								</div>
+								<div class="flipbox_desc">
+									<p>Our commercial banking services are designed to help businesses of all sizes succeed.</p>
+								</div>
+								<div class="flipbox_button">
+									<a href="services.html">Read More<i class="fa fa-angle-double-right"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				
+			</div>
+		</div>	
+	</div>
+	
+	<!--==================================================-->
+	<!----- End Techno Flipbox Area ----->
+	<!--==================================================-->
+
+	
+	<!--==================================================-->
+	<!----- Start Techno How IT Work Area ----->
+	<!--==================================================-->
+	<div class="how_it_work pt-50 pb-65">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section_title text_center mb-60 mt-3">
+						
+						<div class="section_sub_title uppercase mb-3">
+							<h6>SIMPLE AND CONVENIENT</h6>
+						</div>
+						<div class="section_main_title">
+							<h1>Our Working Process</h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single_it_work mb-4">
+						<div class="single_it_work_content pl-2 pr-2">
+							<div class="single_it_work_content_list pb-5">
+								<span>1</span>
+							</div>
+							<div class="single_work_content_title pb-2">
+								<h4>Customer-Centric Approach</h4>
+							</div>
+							<div class="single_it_work_content_text pt-1">
+								<p> From personalized banking solutions to customized investment strategies, we're committed to meeting the unique needs of each and every customer. By understanding our customers' financial goals and challenges, we can provide tailored solutions that help them achieve their dreams.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single_it_work mb-4">
+						<div class="single_it_work_content pl-2 pr-2">
+							<div class="single_it_work_content_list pb-5">
+								<span>2</span>
+							</div>
+							<div class="single_work_content_title pb-2">
+								<h4>Secure and Reliable Services</h4>
+							</div>
+							<div class="single_it_work_content_text pt-1">
+								<p>With state-of-the-art security measures, including multi-factor authentication and encryption, we protect our customers' personal and financial information from cyber threats. Our reliable services, such as 24/7 customer support and real-time transaction tracking, ensure that our customers have access to the information and resources they need, when they need them.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-6 col-sm-12">
+					<div class="single_it_work mb-4">
+						<div class="single_it_work_content pl-2 pr-2">
+							<div class="single_it_work_content_list three pb-5">
+								<span>3</span>
+							</div>
+							<div class="single_work_content_title pb-2">
+								<h4>Innovative Technology</h4>
+							</div>
+							<div class="single_it_work_content_text pt-1">
+								<p>From mobile banking apps to AI-powered investment tools, we're constantly exploring new ways to make banking easier, faster, and more convenient for our customers. By staying at the forefront of financial technology, we can provide our customers with the best possible experience and value.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Techno How IT Work Area ----->
+	<!--==================================================-->
+	
+	<!--==================================================-->
+	<!----- Start Techno Call Do Action Area ----->
+	<!--==================================================-->
+	<div class="call_do_action pt-85 pb-130 bg_color" style="background-image:url(assets/images/call-bg.png)" >
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-9">
+					<div class="section_title white text_left mb-60 mt-3">
+						<div class="phone_number mb-3">
+							<h5>support@pncba.com</h5>
+						</div>
+						<div class="section_main_title">
+							<h1>To make requests or for</h1>
+							<h1>further information</h1>
+						</div>
+						<div class="button three mt-40">
+							<a href="contact.html">Contact Us<i class="fa fa-long-arrow-right"></i></a>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="single-video mt-90">
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Techno Call Do Action Area ----->
+	<!--==================================================-->
+	
+	<!--==================================================-->
+	<!----- Start Techno Counter Area ----->
+	<!--==================================================-->
+	<div class="counter_area" style="display:none;">
+		<div class="container">
+			<div class="row cntr_bg_up nagative_margin pt-50 pb-45">
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="single_counter text_center mb-4">
+						<div class="countr_text">
+							<h1><span class="counter">15</span><span>K</span> </h1>
+						</div>
+						<div class="counter_desc">
+							<h5>Happy Clients</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="single_counter text_center mb-4">
+						<div class="countr_text">
+							<h1><span class="counter">1280</span><span>+</span> </h1>
+						</div>
+						<div class="counter_desc">
+							<h5>Account Number</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="single_counter text_center mb-4">
+						<div class="countr_text">
+							<h1><span class="counter">10</span><span>K</span> </h1>
+						</div>
+						<div class="counter_desc">
+							<h5>Finished Projects</h5>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12">
+					<div class="single_counter text_center mb-4">
+						<div class="countr_text">
+							<h1><span class="counter">992</span><span>+</span> </h1>
+						</div>
+						<div class="counter_desc">
+							<h5>Win Awards</h5>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Techno Counter Area ----->
+	<!--==================================================-->
+<div id="footboss"></div>
+<div id="footlink"></div>
+</body>
+</html>

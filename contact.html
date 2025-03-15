@@ -1,0 +1,330 @@
+<script src="assets/js/vendor/jquery-3.2.1.min.js"></script>
+<script>
+    $(function(){
+		footLink()
+		function headware() {
+		  return new Promise((resolve, reject) => {
+			resolve($("#headdivision").load("_headon.html"))
+		  });
+		}
+		async function footware() {
+		  await headware()
+		  return new Promise((resolve, reject) => {
+			resolve($("#footboss").load("_footon.html"))
+		  });
+		}
+		async function footLink() {
+		  await footware()
+		  return new Promise((resolve, reject) => {
+			resolve($("#footlink").load("_foothper.html"))
+		  });
+		}
+    });
+  </script>
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<title>PNCB INTERNATIONAL</title>
+	<meta name="description" content="PNCB INTERNATIONAL, Secure and user-friendly online financial needs.">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="author" content="PNCB INTERNATIONAL">
+	<meta name="robots" content="index,follow">
+	<!-- Favicon -->
+	<link rel="icon" type="image/png" sizes="56x56" href="assets/images/fav-icon/icon.png">
+	<!-- bootstrap CSS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" type="text/css" media="all" />
+	<!-- carousel CSS -->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css" type="text/css" media="all" />	
+	<!-- nivo-slider CSS -->
+	<link rel="stylesheet" href="assets/css/nivo-slider.css" type="text/css" media="all" />
+	<!-- animate CSS -->
+	<link rel="stylesheet" href="assets/css/animate.css" type="text/css" media="all" />	
+	<!-- animated-text CSS -->
+	<link rel="stylesheet" href="assets/css/animated-text.css" type="text/css" media="all" />	
+	<!-- font-awesome CSS -->
+	<link type="text/css" rel="stylesheet" href="assets/fonts/font-awesome/css/font-awesome.min.css">
+	<!-- font-flaticon CSS -->
+	<link rel="stylesheet" href="assets/css/flaticon.css" type="text/css" media="all" />	
+	<!-- theme-default CSS -->
+	<link rel="stylesheet" href="assets/css/theme-default.css" type="text/css" media="all" />	
+	<!-- meanmenu CSS -->
+	<link rel="stylesheet" href="assets/css/meanmenu.min.css" type="text/css" media="all" />	
+	<!-- Main Style CSS -->
+	<link rel="stylesheet"  href="style.css" type="text/css" media="all" />
+	<!-- transitions CSS -->
+	<link rel="stylesheet" href="assets/css/owl.transitions.css" type="text/css" media="all" />
+	<!-- venobox CSS -->
+	<link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="all" />
+	<!-- responsive CSS -->
+	<link rel="stylesheet" href="assets/css/responsive.css" type="text/css" media="all" />
+	<!-- widget CSS -->
+	<link rel="stylesheet" href="assets/css/widget.css" type="text/css" media="all" />
+	<!-- custom css -->
+	<link rel="stylesheet" href="assets/css/custom.css" type="text/css" />
+	<!-- modernizr js -->	
+	<script src="assets/js/vendor/modernizr-3.5.0.min.js"></script>
+	
+	
+</head>
+<body>
+	<!-- Loder Start-->
+	<div class="loader-wrapper">
+	  <div class="loader"></div>
+	  <div class="loder-section left-section"></div>
+	  <div class="loder-section right-section"></div>
+	</div>
+	<!-- Loder End -->
+	<div id="headdivision">
+	
+	</div>
+	<!-- ============================================================== -->
+	<!-- Start Techno Breatcome Area -->
+	<!-- ============================================================== -->
+	<div class="breatcome_area d-flex align-items-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="breatcome_title">
+						<div class="breatcome_title_inner pb-2">
+							<h2>Contact Us</h2>
+						</div>
+						<div class="breatcome_content">
+							<ul>
+								<li><a href="./">Home</a> <i class="fa fa-angle-right"></i> <span>Contact Us</span></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ============================================================== -->
+	<!-- End Techno Breatcome Area -->
+	<!-- ============================================================== -->
+	
+	
+	<!--==================================================-->
+	<!----- Start Techno Contact Area ----->
+	<!--==================================================-->
+	<div class="main_contact_area pt-80 bg_color2 pb-90">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="section_title text_center mb-55">
+						<div class="section_sub_title uppercase mb-3">
+							<h6>CONTACT US</h6>
+						</div>
+						<div class="section_main_title">
+							<h1>Feel Free Contact</h1>
+							<h1>Us Now</h1>
+						</div>
+						<div class="em_bar">
+							<div class="em_bar_bg"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-xl-12">
+					<div class="contact_from">
+						<form id="contact_form" action="" method="POST" id="dreamit-form">
+							<div class="row">
+								<div class="col-lg-6">
+									<div class="form_box mb-30">
+										<input type="text" name="name"  placeholder="Name">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form_box mb-30">
+										<input type="email" name="email" placeholder="Email Address">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form_box mb-30">
+										<input type="text" name="phone" placeholder="Phone Number">
+									</div>
+								</div>
+								<div class="col-lg-6">
+									<div class="form_box mb-30">
+										<input type="text" name="web" placeholder="Subject">
+									</div>
+								</div>
+								
+								<div class="col-lg-12">
+									<div class="form_box mb-30">
+										<textarea name="message" id="message" cols="30" rows="10" placeholder="Write a Message"></textarea>
+									</div>
+									<div class="quote_btn text_center">
+										<button class="btn" type="submit">Send Message</button>
+									</div>
+								</div>
+							</div>
+						</form>
+						<div id="status"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Techno Contact Area ----->
+	<!--==================================================-->
+	
+	
+	
+	
+	
+	<!--==================================================-->
+	<!----- Start Techno Flipbox Top Feature Area ----->
+	<!--==================================================-->
+	<div class="flipbox_area top_feature pb-70 two">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+							<div class="techno_flipbox_inner">
+								<div class="techno_flipbox_icon">
+									<div class="icon">
+										<i class="flaticon-global-1"></i>
+									</div>
+								</div>			
+								<div class="flipbox_title">
+									<h3>Online Banking</h3>
+								</div>
+							</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Online Banking</h3>
+								</div>
+								<div class="flipbox_desc pt-3">
+									<p>>We offers a convenient and secure way to manage your finances from anywhere, at any time</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+							<div class="techno_flipbox_inner">
+								<div class="techno_flipbox_icon">
+									<div class="icon">
+										<i class="flaticon-smartphone"></i>
+									</div>
+								</div>			
+								<div class="flipbox_title">
+									<h3>Mobile Banking</h3>
+								</div>
+							</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Mobile Banking</h3>
+								</div>
+								<div class="flipbox_desc pt-3">
+									<p>You can take care of your financial tasks from the convenience of your smartphone.</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-padlock"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>Secure Banking</h3>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>Secure Banking</h3>
+								</div>
+								<div class="flipbox_desc pt-3">
+									<p>We us state-of-the-art security measures to protect your personal and financial information.</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-12 col-xs-6">
+					<div class="techno_flipbox mb-30">
+						<div class="techno_flipbox_font">
+								<div class="techno_flipbox_inner">
+									<div class="techno_flipbox_icon">
+										<div class="icon">
+											<i class="flaticon-call"></i>
+										</div>
+									</div>			
+									<div class="flipbox_title">
+										<h3>24/7 Online Support</h3>
+									</div>
+								</div>
+						</div>
+						<div class="techno_flipbox_back">
+							<div class="techno_flipbox_inner">		
+								<div class="flipbox_title">
+									<h3>24/7 Online Support</h3>
+								</div>
+								<div class="flipbox_desc pt-3">
+									<p>We demonstrate our commitment to our customers. By providing around-the-clock support.</p>
+								</div>
+							</div>
+						</div>
+					</div>	
+				</div>
+				
+			</div>
+		</div>	
+	</div>
+	<!--==================================================-->
+	<!----- End Techno Flipbox Top Feature Area ----->
+	<!--==================================================-->
+	
+	
+	<!--==================================================-->
+	<!----- Start Techno Subscribe Area ----->
+	<!--==================================================-->
+	<div class="subscribe_area bg_color pt-30 pb-45">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2"></div>
+				<div class="col-lg-8">
+					<div class="single_subscribe_contact">
+						<div class="subscribe_content_title white text_center pb-30">
+							<h2>Talk With Us About Your Case</h2>
+							<p>Maybe there is a solution for a problem you have or an opportunity for cost saving in your business setup you have never thought about. Contact us for a free consultation and we will see if we can cooperate. </p>
+							<div class="button three mt-40">
+							<a href="contact.html">Contact Us<i class="fa fa-long-arrow-right"></i></a>
+						</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="col-lg-2"></div>
+			</div>
+		</div>
+	</div>
+	<!--==================================================-->
+	<!----- End Techno Subscribe Area ----->
+	<!--==================================================-->
+	
+<div id="footboss"></div>
+<div id="footlink"></div>
+</body>
+</html>
